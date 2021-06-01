@@ -12,9 +12,9 @@
     position: absolute;
     font-family: "modena", "Lucida Handwriting", cursive;
     text-align: center;
-    font-size: 7vw;
+    font-size: 6vw;
     color: rgba(145, 7, 7);
-    top: 40px;
+    top: 20px;
     right: 100px;
 }
 
@@ -34,34 +34,36 @@
     font-weight: bold;
 }
 
-
 .grid1-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
 }
+
 .grid1-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
 }
+
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
+
 .navGrid>div>button {
     font-size: 1.6vw;
     font-weight: bold;
@@ -72,6 +74,23 @@
     text-align: left;
     opacity: 0.8;
 }
+
+#introductionTitle {
+    font-size: 4vw;
+    color: rgba(145, 7, 7);
+}
+
+#introductionMain {
+    font-size: 1vw;
+    color: rgba(145, 7, 7);
+}
+
+th {
+    text-align: left;
+}
+
+
+/*
 
 ul {
     list-style-type: none;
@@ -84,7 +103,6 @@ li {
     float: left;
     font-size: calc(10px + 1.6vw);
     font-weight: bold;
-    background-color: teal;
 }
 
 li>a {
@@ -100,6 +118,8 @@ li a:hover {
     background-color: crimson;
 }
 
+*/
+
 .footer>ul {
     list-style-type: none;
     margin: 0;
@@ -110,7 +130,6 @@ li a:hover {
 .footer>ul>li {
     float: left;
     padding: 4px 6px;
-    background-color: navy;
 }
 
 .footerLink {
@@ -139,7 +158,6 @@ li a:hover {
     margin: 4px;
     padding: 2px 10px;
     overflow: hidden;
-    background-color: navy;
 }
 
 @media screen and (max-width: 1000px) {
