@@ -80,7 +80,7 @@
     color: rgba(145, 7, 7);
 }
 
-#introductionMain {
+.introductionMain {
     font-size: 1vw;
     color: rgba(145, 7, 7);
 }
@@ -142,7 +142,7 @@ li a:hover {
     border-width: 0px;
 }
 
-#contacts {
+.contacts {
     display: inline;
     font-size: 14px;
     padding: 10px;
